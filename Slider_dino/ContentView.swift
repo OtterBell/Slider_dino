@@ -28,6 +28,7 @@ struct ContentView: View {
                     Text(character)
                 }
             }
+            .pickerStyle(.menu)
             // 只有選到角色時才顯示圖片和Form
             if selectCharacter != "CHOOSE A DINO" {
                 Image(selectCharacter)
